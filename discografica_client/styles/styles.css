@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'strato';
+    src: url('StratoRegular.otf') format('truetype');
+    }
+body {
+    background-image: url("../img/tocadiscos1.webp");
+}
+
+.aire {
+    padding: -10px 60px 10px 60px;
+}
+
+#enlace {
+    text-decoration: none;
+    color: white;
+}
+.centro{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.disquera {
+    color: gold;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'strato', sans-serif;
+}
+.mensaje {
+    color: gold;
+    text-align: center;
+    margin: 5px;
+}
+
+/* Estilo básico para la tabla */
+table {
+    border-collapse: collapse;
+    width: auto;
+    margin: 0 auto;
+    background-color: beige;
+    color: black;
+    border: 2px solid #000;
+}
+
+/* Encabezado de la tabla */
+th,
+td {
+    width: auto;
+    height: auto;
+    text-align: left;
+    border: 1px solid #000;
+}
+
+th {
+    background-color: #f2f2f2;
+
+}
+
+/* Estilo de las filas impares */
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo al pasar el ratón sobre una fila */
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Estilo para la primera columna (si es necesario) */
+td:first-child {
+    font-weight: bold;
+}
+
+/* Añade espacio entre las celdas */
+td,
+th {
+    padding: 15px;
+    height: auto;
+    width: auto;
+}
+
+/* Ajusta automáticamente la altura de las filas según el contenido */
+td,
+th {
+    height: auto;
+    width: auto;
+}
+
+/* Estilo básico para el formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: beige;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+/* Estilo para los campos de entrada y etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'strato';
+    src: url('../styles/StratoRegular.otf') format('truetype');
+    }
+
+body {
+    background-image: url("../img/grabacion2.jpeg");
+    background-size: cover;
+}
+
+.aire {
+    padding: 10px 60px 10px 60px;
+}
+
+#enlace {
+    text-decoration: none;
+    color: white;
+}
+.centro{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.disquera {
+    color: gold;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'strato', sans-serif;
+}
+
+.mensaje {
+    color: gold;
+    text-align: center;
+    margin: 5px;
+}
+
+/* body,
+html {
+    margin: 0;
+}
+
+#parallax1,
+#parallax2,
+#parallax3 {
+
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#parallax1 {
+    background-image: url(./img/tocadiscos1.webp);
+}
+
+#parallax2 {
+    background-image: url(./img/grabacion1.jpeg);
+}
+
+#parallax3 {
+    background-image: url(../img/img3.jpg);
+}
+
+#texto {
+    padding: 100px;
+    height: 160px;
+    background-color: black;
+    font-size: 2rem;
+    color: beige;
+    text-align: center;
+} */
+
+/* Estilo básico para la tabla */
+table {
+    border-collapse: collapse;
+    width: auto;
+    margin: 0 auto;
+    background-color: beige;
+    color: black;
+}
+
+/* Encabezado de la tabla */
+th,
+td {
+    text-align: left;
+    border: 1px solid #000;
+    /* Color del borde de las celdas */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilo de las filas impares */
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo al pasar el ratón sobre una fila */
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Estilo para la primera columna (si es necesario) */
+td:first-child {
+    font-weight: bold;
+}
+
+/* Añade espacio entre las celdas */
+td,
+th {
+    padding: 15px;
+}
+
+/* Ajusta automáticamente la altura de las filas según el contenido */
+td,
+th {
+    height: auto;
+}
+
+/* Añade un borde alrededor de la tabla */
+table {
+    border: 2px solid #000;
+    /* Color del borde de la tabla */
+}
+
+/* Estilo básico para el formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: beige;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+/* Estilo para los campos de entrada y etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
